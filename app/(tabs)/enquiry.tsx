@@ -47,10 +47,10 @@ const EnquiryScreen: React.FC = () => {
         placeholder="Details"
         value={details}
         multiline
-        numberOfLines={4}
+        numberOfLines={6}
         onChangeText={setDetails}
       />
-      <Button title="Submit" onPress={handleSubmit} />
+      <Button title="Submit" onPress={handleSubmit} color={'darkslateblue'} />
     </View>
   );
 };
